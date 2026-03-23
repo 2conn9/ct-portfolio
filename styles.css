@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: "Roboto", sans-serif;
+    background-color: #0c143e;
     margin: 0;
     padding: 20px;
     text-align: center;
+    color: rgb(214, 217, 255);
 }
 
 h1 {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 80px;
 }
 
 nav {
@@ -27,11 +31,11 @@ nav {
     box-shadow: none;
     cursor: pointer;
     transition: color 0.3s;
-    color: #333;
+    color: white;
 }
 
 .nav-box:hover {
-    color: #007bff;
+    color: #4da6ff;
 }
 
 .profile-img {
@@ -42,5 +46,4 @@ nav {
     object-position: center 40%;
     display: block;
     margin: 40px auto;
-    border: 3px solid #007bff;
 }
