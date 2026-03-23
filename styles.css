@@ -8,4 +8,30 @@ body {
 
 h1 {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+
+.nav-box {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    cursor: pointer;
+    transition: color 0.3s;
+    color: #333;
+}
+
+.nav-box:hover {
+    color: #007bff;
+}
+
 }
