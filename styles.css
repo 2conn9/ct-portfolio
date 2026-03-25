@@ -2,11 +2,11 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #21202d;
+    background-color: #001122;
     margin: 0;
     padding: 70px 20px 20px 20px;
     text-align: center;
-    color: rgb(214, 217, 255);
+    color: #ffffff;
 }
 
 .top-banner {
@@ -15,7 +15,7 @@ body {
     left: 0;
     width: 100%;
     height: 50px;
-    background-color: #636363;
+    background-color: #000033;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -24,7 +24,7 @@ body {
 }
 
 .top-banner:hover {
-    background-color: #4da6ff;
+    background-color: #003366;
     transition: background-color 0.3s;
 }
 
@@ -59,7 +59,7 @@ nav {
 }
 
 .nav-box:hover {
-    color: #4da6ff;
+    color: #66aaff;
 }
 
 .profile-img {
@@ -80,11 +80,11 @@ nav {
     display: flex;
     justify-content: space-around;
     gap: 20px;
-    flex-wrap: wrap;
+
 }
 
 .project-item {
-    background-color: #03396c;
+    background-color: #002244;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -92,10 +92,11 @@ nav {
     min-height: 200px;
     text-align: center;
 
+
 }
 
 .project-item:hover {
-    background-color: #03417b;
+    background-color: #003366;
     color: white;
     transform: translatey(-2px);
     transition: all 0.3s ease;
