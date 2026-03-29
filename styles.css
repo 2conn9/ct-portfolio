@@ -126,3 +126,12 @@ nav {
     transform: translateY(-2px);
     transition: all 0.3s ease;
 }
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
