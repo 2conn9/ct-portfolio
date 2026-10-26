@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" type="my-icon" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,467;1,467&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body class="project-page project-two-page">
+    <a href="index.html" class="banner-title">
+        <div class="top-banner">
+            <span class="banner-title">My Portfolio</span>
+            <nav>
+                <a href="index.html" class="top banner">
+                    <div class="nav-box">Home
+                    </div>
+                </a>
+                <a href="https://github.com/2conn9" class="top banner">
+                    <div class="nav-box">Github</div>
+                </a>
+
+            </nav>
+        </div>
+    </a>
+    <h1>Project 2 Website</h1>
+    <div class="project-content">
+        <div class="project-text">
+            <p>Overall, I think my project went well because I created a working digital clock that displays the time, date, day and current temperature on the LCD screen. One thing that went well was getting VSC and the Arduino to communicate with eachother. I learnt that my Python program gets the current time from the computer and gets the temperature from the Open-Meteo weather API. It then sends this information through the USB serial connection to the Arduino. The Arduino receives the information and displays it on the LCD screen. I also learned how to format information so that each part such as the time and temperature, appears in the correct position on the screen.</p>
+            <p>One of the difficult parts of the projects was getting the Arduino to read the information being sent from Python without errors. I had to make sure that the information was separated by commas so the Arduino could identify the time, date, day and temperature separately. Another difficult part was positioning the text on the screen. I had to use different coordinates and text sizes to make sure everything fit on the screen. I also had to learn how to centre the text instead of just choosing a fixed position.</p>
+            <p>During this project, I learned about how Python and Arduino can work together. I learned how serial communication allows the two programs to send information between each other. I also learned how an API can be used to get real world info, such as the current temperature, and use it in my own program. In addition, I improved my understanding of Arduino libraries, functions, variables and how information can be split into separate parts.</p>
+            <p>If I were to improve the project, I would add more features such as precipitation, a quote that changes every day or my timetable. Overall, I learned that programming often involves testing, finding problems and changing code until everything works properly.</p>
+        </div>
+        <div class="project-images">
+            <img class="uncropped-image" src="Screenshot%202026-10-23%20150916.png" alt="Flowchart showing the digital clock data process between Python and Arduino">
+            <img class="uncropped-image" src="Screenshot%202026-10-23%20150942.png" alt="Arduino LCD showing the digital clock, date, temperature and daily message">
+        </div>
+    </div>
+
+</body>
+
+</html>
